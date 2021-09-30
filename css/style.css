@@ -33,3 +33,61 @@ img{
   margin-left: auto;
   margin-right: auto;
 }
+
+
+.site-header {
+}
+
+/* SITE_HEADER_TOP */
+.site-header-top {
+  background-color: #F6F6F6;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.site-header-top-container {
+  display: flex;
+  align-items: center;
+}
+
+.site-header-logo {
+background-color: #fff;
+display: flex;
+padding: 8px 6px;
+border-radius: 7px;
+margin-right: 35px;
+
+}
+.logo-img {
+  font-family: Rubik;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #7296EE;
+}
+.currency-rates {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  margin-right: auto;
+  list-style: none;
+}
+.currency-rates-iteam {
+}
+.currency-rates-type {
+  font-weight: bold;
+  color: #2959CE;
+
+}
+.currency-rates-value {
+}
+.lang-toggle {
+}
+.lang-toggle-link {
+}
+.lang-toggle-link-active {
+}
+.button {
+}
+.button-primary {
+}
