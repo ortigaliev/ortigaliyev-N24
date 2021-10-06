@@ -42,8 +42,9 @@ img{
   margin-right: auto;
 }
 
-
-.site-header {
+*:focus{
+  outline: 2px dashed #7296ec;
+  outline-offset: 3px;
 }
 
 /* SITE_HEADER_TOP */
@@ -135,4 +136,20 @@ opacity: 0.8;
 }
 .button-primary:active{
   opacity: 0.6;
+}
+
+/* GLOBAL SEARCH FORM */
+.global-search-name {
+margin-right: 25px;
+}
+.input-search-form-input {
+  padding-top: 15px;
+  padding-bottom: 13px;
+  padding-left: 41px;
+  padding-right: 20px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #8d8d8d;
+  border: none;
+  border-radius: 60px;
 }
