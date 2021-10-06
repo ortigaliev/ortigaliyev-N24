@@ -20,6 +20,10 @@ body{
   color: #4A4B4C;
 }
 
+h1,h2{
+  visibility: hidden
+}
+
 img{
   max-width: 100%;
   height: auto;
@@ -166,6 +170,7 @@ img{
 }
 .sitenav-list {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   margin: 0;
   padding: 0;
@@ -190,15 +195,46 @@ img{
   color: #2959ce;
 }
 
-
-
-
-.banner {
-}
-
-.banner-link {
+..site-banner {
   display: flex;
 }
-
+.banner-link {
+  width: 100%;
+}
 .banner-img {
+  width: 100%;
+}
+
+/* SITE NEWS GRIDS */
+.site-main{
+ flex-grow: 1;
+ padding-top: 50px;
+}
+
+/* NEWS GRID ITEM */
+
+.news-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.news-grid-item {
+  width: 393px;
+}
+.article-card {
+}
+.articel-grid-header {
+}
+.article-grid-header-link {
+}
+.article-grid-text {
+}
+.article-grid-img {
+}
+.article-grid-footer {
+}
+.article-grid-footer-icon {
+}
+.article-grid-footer-source-time {
+}
+.article-grid-footer-source {
 }
