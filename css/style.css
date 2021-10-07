@@ -215,7 +215,8 @@ img{
 }
 
 /* SITE NEWS GRIDS */
-.site-main{
+
+.grids{
   flex-grow: 1;
   padding-top: 50px;
 }
