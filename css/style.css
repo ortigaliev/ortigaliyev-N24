@@ -37,6 +37,11 @@ img{
   cursor: pointer;
 }
 
+.button-block{
+  display: block;
+  width: 100%;
+}
+
 .container{
   width: 100%;
   max-width: 1240px;
@@ -333,4 +338,256 @@ img{
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
+}
+
+/* GLOBAL NEWS CARD  */
+
+.world-news-card-size{
+  width: 797px;
+}
+
+.world-news-heading {
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 20px;
+
+}
+.world-news-card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 17px;
+}
+.world-news-card-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.article-card-horizontal{
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #f6f6f6;
+  border-radius: 15px;
+}
+.wolrd-news-card-item-img {
+  width: 210px;
+  height: 165px;
+  margin-right: 15px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.world-news-card-item-info {
+  flex-grow: 1;
+}
+
+.world-news-card-item-info-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
+}
+
+.world-news-card-title-link{
+  text-decoration: none;
+  color: #000;
+}
+
+.world-news-card-title-link:hover{
+  color: #2959ce;
+  opacity: 0.8;
+}
+
+.world-news-card-title-link:active{
+  opacity: 0.6;
+}
+.world-news-card-item-info-text {
+  margin-top: 0;
+  margin-bottom: 17px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #4a4b4c;
+}
+.world-news-footer {
+  display: flex;
+  align-items: center;
+}
+.world-news-footer-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+
+}
+.world-news-footer-source-time {
+  font-size: 14px;
+  line-height: 12px;
+  font-weight: normal;
+  color: #5e5f61;
+}
+
+.button-grey{
+  width: 767px;
+  padding: 17px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  border-radius: 10px;
+  border: 0;
+  color: #000;
+}
+
+/* SIDEBAR-NEWS-CARD */
+.sidebar-news-card {
+  margin-top: 43px;
+  width: 393px;
+
+}
+
+.sidebar-new-card-without-img{
+  background-color: #f6f6f6;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.sidebar-news-header {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #000;
+}
+.sidebar-news-list {
+  padding: 0;
+  list-style: none;
+}
+
+
+.sidebar-news-item-heading {
+  font-size: 18px;
+  line-height: 24px;
+}
+.sidebar-news-item-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.sidebar-news-item-link:hover{
+  color: #2959ce;
+  opacity: 0.8;
+}
+
+.sidebar-news-item-link:active{
+  opacity: 0.6;
+}
+
+.sidebar-new-footer-source-time {
+  margin-top: 8px;
+  color: #5E5F61;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #D2D2D2;
+}
+
+.sidebar-new-footer-source-time:not(:last-child){
+  border-bottom: 0;
+}
+
+.layout{
+  display: flex;
+  align-items: flex-start;
+}
+
+
+/* SITE-FOOTER */
+.site-main-footer {
+  background-color: #7297ef;
+}
+.site-main-footer-bg {
+  padding: 40px 221px;
+  display: block;
+
+}
+.site-main-footer-heading {
+  display: block;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.footer-info-wrapper {
+}
+.footer-info-card {
+  display: flex;
+  align-items: flex-start;
+
+}
+.footer-copyright {
+  width: 230px;
+  margin-right: 203px;
+}
+.footer-coyright-text {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  line-height: 19px;
+  color: #fff;
+}
+.footer-site-info-contact {
+  margin-right: 100px;
+}
+
+.footer-site-info-contact-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer-site-info-contact-list-item {
+  margin-bottom: 20px;
+
+}
+.footer-site-info-contact-list-link {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+}
+.footer-about-us {
+
+}
+.footer-about-us-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.follow-us {
+  display: flex;
+  align-items: center;
+}
+.folow-us-text {
+  width: 161px;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+color: #FFFFFF;
+}
+
+.social-network-list {
+  display: flex;
+
+  align-items: center;
+}
+.social-network-item {
+  line-height: 23px;
+}
+.social-network-item-link {
 }
