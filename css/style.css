@@ -539,6 +539,7 @@ img{
   color: #fff;
 }
 .footer-site-info-contact {
+  justify-content: flex-start;
   margin-right: 100px;
 }
 
@@ -561,8 +562,11 @@ img{
   color: #fff;
 }
 .footer-about-us {
-
+margin-right: 221px;
+margin-left: 221px;
 }
+
+
 .footer-about-us-list {
   margin: 0;
   padding: 0;
@@ -572,22 +576,38 @@ img{
 .follow-us {
   display: flex;
   align-items: center;
+  border-top: 1px solid #CECECE;
+
+
 }
 .folow-us-text {
   width: 161px;
-font-weight: 500;
-font-size: 18px;
-line-height: 23px;
-color: #FFFFFF;
+  margin-right: 600px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
 }
+
+.social-network-wrapper{
+}
+
 
 .social-network-list {
   display: flex;
+  list-style: none;
+}
 
-  align-items: center;
-}
 .social-network-item {
-  line-height: 23px;
+  margin: 0;
+  padding: 0;
 }
+
+.social-network-item:not(:last-child){
+  margin-right: 25px;
+}
+
 .social-network-item-link {
+  text-decoration: none;
+
 }
