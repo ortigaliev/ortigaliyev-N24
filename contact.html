@@ -6,11 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>N24-Contact</title>
 
-   <!-- styles -->
-   <link rel="stylesheet" href="css/normalize.css">
-   <link rel="stylesheet" href="css/style.css">
+  <!-- styles -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 
-   <!-- fonts -->
+  <!-- fonts -->
 </head>
 <body>
 
@@ -70,50 +70,101 @@
     <!-- FORM -->
 
 
-<div class="site-form container">
-  <h2 class="site-form-header">Напишите нам</h2>
-  <div class="site-form-root">
-    <div class="form-wrapper">
-      <form class="contact-form" action="https://ecohtmlacademy.ru" method="GET">
-        <div class="contact-name-tel">
-          <label class="contact-label" for="name" ></label>
-          <input class="contact-input-name" type="name" name="name" id="name" placeholder="Имя">
-          <label  class="contact-label" for="phone"></label>
-          <input class="contact-input-tel" type="tel" name="phone" id="phone" placeholder="Номер телефона">
+    <div class="site-form container">
+      <h2 class="site-form-header">Напишите нам</h2>
+      <div class="site-form-root">
+        <div class="form-wrapper">
+          <form class="contact-form" action="https://ecohtmlacademy.ru" method="GET">
+
+            <div class="contact-input-name-tel">
+              <input class="contact-input-name" type="name" name="name" id="name" placeholder="Имя">
+              <input class="contact-input-tel" type="tel" name="phone" id="phone" placeholder="Номер телефона">
+            </div>
+            <label for="email">
+              <input class="contact-input-email" type="email" name="email" id="email" placeholder="Электронная почта" required>
+            </label>
+            <textarea class="contact-textaria" name="text" id="text" cols="30" rows="8" placeholder="Текст" required></textarea>
+          </form>
+          <button class="contact-button">Отправить</button>
         </div>
-        <label for="email">
-          <input class="contact-input-email" type="email" name="email" id="email" placeholder="Электронная почта">
-        </label>
-        <textarea class="contact-textaria" name="text" id="text" cols="30" rows="10"></textarea>
-      </form>
-      <button class="contact-button">Отправить</button>
+
+        <div class="contact-aside">
+          <div class="contact-aside-item">
+            <h3 class="contact-aside-item-heading">Электронная почта</h3>
+            <div class="contact-aside-item-source">info@namanganliklar24.uz</div>
+          </div>
+
+          <div class="contact-aside-item">
+            <h3 class="contact-aside-item-heading">
+              Номер телефона
+            </h3>
+            <div class="contact-aside-item-source">+998 88 522-54-76</div>
+          </div>
+
+          <div class="contact-aside-item">
+            <h3 class="contact-aside-item-heading">
+              Адрес
+            </h3>
+            <div class="contact-aside-item-source">Ташкент, площадь Мустакиллик, 6</div>
+          </div>
+        </div>
+      </div>
+
     </div>
+  </mian>
 
-    <div class="contact-aside">
-      <div class="contact-aside-bg">
-        <div class="contact-aside-item">
-          <h3 class="contact-aside-item-heading">Электронная почта</h3>
-          <span class="contact-aside-item-source">info@namanganliklar24.uz</span>
+  <!-- SITE-FOOTER -->
+<footer class="site-main-footer">
+  <div class="site-main-footer-bg">
+    <h3 class="site-main-footer-heading">
+      NAMANGANLIKLAR 24
+    </h3>
+    <div class="footer-info-wrapper">
+      <div class="footer-info-card">
+        <div class="footer-copyright">
+          <p class="footer-coyright-text">Воспроизводство, копирование, использование информации с сайта «NAMANGANLIKLAR24.UZ» возможно только с предварительного письменного разрешения редакции.
+          </p>
         </div>
+        <div class="footer-site-info-contact">
+          <ul class="footer-site-info-contact-list">
+            <li class="footer-site-info-contact-list-item"><a href="#" class="footer-site-info-contact-list-link">Информация о сайте</a></li>
+            <li class="footer-site-info-contact-list-item"><a href="#" class="footer-site-info-contact-list-link">Напишите нам</a></li>
+            <li class="footer-site-info-contact-list-item"><a href="#" class="footer-site-info-contact-list-link">Реклама</a></li>
+            <li class="footer-site-info-contact-list-item"><a href="#" class="footer-site-info-contact-list-link">Прислать новость</a></li>
+          </ul>
 
-        <div class="contact-aside-item">
-          <h3 class="contact-aside-item-heading">
-            Номер телефона
-          </h3>
-          <span class="contact-aside-item-source">+998 88 522-54-76</span>
+          <ul class="footer-about-us-list">
+            <li class="footer-site-info-contact-list-item"><a href="#" class="footer-site-info-contact-list-link">Использование материалов</a></li>
+            <li class="footer-site-info-contact-list-item"><a href="#" class="footer-site-info-contact-list-link">Темы дня</a></li>
+            <li class="footer-site-info-contact-list-item"><a href="#" class="footer-site-info-contact-list-link">Наша команда </a></li>
+          </ul>
         </div>
-
-        <div class="contact-aside-item">
-          <h3 class="contact-aside-item-heading">
-            Адрес
-          </h3>
-          <span class="contact-aside-item-source">iТашкент, площадь Мустакиллик, 6 </span>
+      </div>
+      <hr class="footer-diveder">
+      <div class="follow-us">
+        <p class="folow-us-text">
+          Наши социальные сети
+        </p>
+        <div class="social-network-wrapper">
+          <ul class="social-network-list">
+            <li class="social-network-item">
+              <a class="social-network-item-link" href="#"><img src="img/free-icon-facebook.svg" alt="facebook" width="25" height="25" srcset="img/free-icon-facebook.svg 1x, img/free-icon-facebook@2x.svg 2x"></a>
+            </li>
+            <li class="social-network-item">
+              <a class="social-network-item-link" href="#"><img src="img/free-icon-instagram.svg" alt="instagram" width="25" height="25" srcset="img/free-icon-instagram.svg 1x, img/free-icon-instagram.svg 2x"></a>
+            </li>
+            <li class="social-network-item">
+              <a class="social-network-item-link" href="#"><img src="img/free-icon-telegram.svg" alt="telegram" width="25" height="25" srcset="img/free-icon-telegram.svg 1x, img/free-icon-telegram.svg 2x"></a>
+            </li>
+            <li class="social-network-item">
+              <a class="social-network-item-link" href="#"><img src="img/free-icon-youtube.svg" alt="youtube" width="25" height="25" srcset="img/free-icon-youtube.svg 1x, img/free-icon-youtube.svg 2x"></a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
   </div>
 
-</div>
-  </mian>
+</footer>
 </body>
 </html>
