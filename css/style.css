@@ -905,7 +905,7 @@ only screen and (                min-resolution: 2dppx) {
   display: flex;
   margin-bottom: 10px;
 }
-.contact-input-name{
+.contact-input{
   padding: 18px 20px;
   margin-right: 10px;
   width: 343px;

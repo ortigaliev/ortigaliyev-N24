@@ -14,7 +14,7 @@
 </head>
 <body>
 
-  <mian class="site-main">
+  <section class="site-main">
     <header class="site-header">
       <!-- SITE-HEADER TOP -->
       <div class="site-header-top">
@@ -36,7 +36,7 @@
           <!-- GLOBAL SEARCH FORM -->
           <form class="global-search-name" action="https://echo.htmlacademy.ru" method="GET">
             <label class="global-search-label" for="search">
-              <input class="input-search-form-input" type="search" name="search" aria-label="Поиск" required placeholder="Поиск"><span></span>
+              <input class="input-search-form-input" type="search" id="search" name="search" aria-label="Поиск" required placeholder="Поиск"><span></span>
             </label>
           </form>
           <!-- LANG TOGGLER -->
@@ -68,16 +68,14 @@
     </header>
 
     <!-- FORM -->
-
-
     <div class="site-form container">
-      <h2 class="site-form-header">Напишите нам</h2>
+      <h1 class="site-form-header">Напишите нам</h1>
       <div class="site-form-root">
         <div class="form-wrapper">
           <form class="contact-form" action="https://ecohtmlacademy.ru" method="GET">
 
             <div class="contact-input-name-tel">
-              <input class="contact-input-name" type="name" name="name" id="name" placeholder="Имя">
+              <input class="contact-input" type="text" id="fname" aria-label="Имя">
               <input class="contact-input-tel" type="tel" name="phone" id="phone" placeholder="Номер телефона">
             </div>
             <label for="email">
@@ -90,28 +88,28 @@
 
         <div class="contact-aside">
           <div class="contact-aside-item contact-aside-item-card">
-            <h3 class="contact-aside-item-heading">Электронная почта</h3>
+            <h2 class="contact-aside-item-heading">Электронная почта</h2>
             <span class="contact-aside-item-source">info@namanganliklar24.uz</span>
           </div>
 
           <div class="contact-aside-item contact-aside-item-card">
-            <h3 class="contact-aside-item-heading">
+            <h2 class="contact-aside-item-heading">
               Номер телефона
-            </h3>
+            </h2>
             <span class="contact-aside-item-source">+998 88 522-54-76</span>
           </div>
 
           <div class="contact-aside-item contact-aside-item-card">
-            <h3 class="contact-aside-item-heading">
+            <h2 class="contact-aside-item-heading">
               Адрес
-            </h3>
+            </h2>
             <span class="contact-aside-item-source">Ташкент, площадь Мустакиллик, 6</span>
           </div>
         </div>
       </div>
 
     </div>
-  </mian>
+  </section>
 
   <!-- SITE-FOOTER -->
 <footer class="site-main-footer">
