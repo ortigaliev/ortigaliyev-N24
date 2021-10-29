@@ -964,29 +964,29 @@ only screen and (                min-resolution: 2dppx) {
 .contact-aside {
   width: 100%;
   max-width: 494px;
-  padding: 40px 25px 20px 25px;
+  padding: 40px 25px;
   background-color: #f6f6f6;
-  border-radius: 10px;
+}
+.contact-aside-item-card{
+
 }
 
 .contact-aside-item {
-
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d2d2d2;
 }
+
 .contact-aside-item-heading {
   margin: 0;
   padding: 0;
-  font-size: 20px;
-  line-height: 24px;
-  font-family: "Rubik" sans-serif;
-  font-weight: 500;
-  color: #000;
-  margin-bottom: 7px;
+  margin-top: 20px;
+
 }
+
+.contact-aside-item-heading:not(:first-child){
+  margin-top: 20px;
+}
+
 .contact-aside-item-source {
   margin-bottom: 20px;
-  font-size: 16px;
-  line-height: 19px;
-  font-family: "Rubik" sans-serif;
-  font-weight: 40;
-  color: #000;
 }
