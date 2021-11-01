@@ -598,6 +598,7 @@ only screen and (                min-resolution: 2dppx) {
   background-color: #7297ef;
 }
 
+
 .site-main-footer-bg {
   width: 998px;
   display: block;
@@ -605,6 +606,10 @@ only screen and (                min-resolution: 2dppx) {
   margin-bottom: 40px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.site-main-footer-bg *:focus{
+  outline: 2px dashed #fff;
 }
 
 .site-main-footer-heading {
@@ -618,13 +623,10 @@ only screen and (                min-resolution: 2dppx) {
   color: #FFFFFF;
 }
 
-.footer-info-wrapper {
-}
 .footer-info-card {
   display: flex;
   align-items: flex-start;
 }
-
 
 .footer-coyright-text {
   width: 230px;
@@ -637,14 +639,14 @@ only screen and (                min-resolution: 2dppx) {
 }
 .footer-site-info-contact {
   display: flex;
-  align-items: flex-start;
+  flex-grow: 1;
 }
 
 .footer-site-info-contact-list {
-  width: 167px;
+  width: 50%;
   margin: 0;
   padding: 0;
-  margin-right: 100px;
+  padding-right: 24px;
   list-style: none;
 }
 .footer-site-info-contact-list-item {
@@ -652,6 +654,7 @@ only screen and (                min-resolution: 2dppx) {
 
 }
 .footer-site-info-contact-list-link {
+  display: inline-block;
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -659,6 +662,10 @@ only screen and (                min-resolution: 2dppx) {
   font-size: 16px;
   line-height: 19px;
   color: #fff;
+}
+
+.footer-site-info-contact-list-link:hover{
+text-decoration: underline;
 }
 .footer-about-us {
   margin-right: 221px;
@@ -683,11 +690,12 @@ only screen and (                min-resolution: 2dppx) {
 .follow-us {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .folow-us-text {
   width: 161px;
-  margin-right: 600px;
+ /*  margin-right: 600px; */
   font-weight: 500;
   font-size: 18px;
   line-height: 23px;
@@ -970,9 +978,6 @@ only screen and (                min-resolution: 2dppx) {
   padding: 20px 25px 40px;
   background-color: #f6f6f6;
   border-radius: 10px;
-}
-.contact-aside-item-card{
-
 }
 
 .contact-aside-item {
