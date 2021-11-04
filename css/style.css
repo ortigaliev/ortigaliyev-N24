@@ -912,6 +912,7 @@ text-decoration: underline;
 .contact-input-name-tel{
   display: flex;
   margin-bottom: 10px;
+  color: #000;
 }
 .contact-input{
   padding: 18px 20px;
@@ -919,7 +920,7 @@ text-decoration: underline;
   width: 343px;
   border: 1px solid #c4c4c4;
   border-radius: 10px;
-  color: #fff;
+  color: #000;
 }
 
 .contact-input-tel{
@@ -927,7 +928,6 @@ text-decoration: underline;
   width: 343px;
   border-radius: 10px;
   border: 1px solid #c4c4c4;
-  color: #fff;
 }
 
 .contact-input-email{
@@ -937,7 +937,6 @@ text-decoration: underline;
   width: 696px;
   border-radius: 10px;
   border: 1px solid #c4c4c4;
-  color: #fff;
 }
 
 .contact-textaria{
@@ -947,7 +946,7 @@ text-decoration: underline;
   width: 696px;
   border-radius: 10px;
   border: 1px solid #c4c4c4;
-  color: #fff;
+
 }
 .contact-button {
   display: flex;
